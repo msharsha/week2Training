@@ -1,0 +1,42 @@
+package com.sapient.pe.collections;
+
+import java.util.Iterator;
+import java.util.Set;
+import java.util.TreeSet;
+
+import com.sapient.pe.tutorial.Address;
+import com.sapient.pe.tutorial.BankAccount;
+import com.sapient.pe.tutorial.Person;
+import com.sapient.pe.tutorial.SalaryAccount;
+
+public class TreeSetDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Set<BankAccount> accounts = new TreeSet();
+		Person p1 = new Person(12,"man","Single",new Address("a","b","c"));
+		BankAccount account = new SalaryAccount(p1);
+		accounts.add(account);
+		Person p2 = new Person(14,"mani","Single",new Address("a","b","c"));
+		BankAccount account1 = new SalaryAccount(p1);
+		accounts.add(account1);
+		Person p3 = new Person(8,"man","Single",new Address("a","b","c"));
+		BankAccount account2 = new SalaryAccount(p1);
+		accounts.add(account2);
+		Person p4 = new Person(23,"man","Single",new Address("a","b","c"));
+		BankAccount account3 = new SalaryAccount(p1);
+		accounts.add(account3);
+		
+		Iterator<BankAccount> it = accounts.iterator();
+		
+		while(it.hasNext()) {
+			BankAccount acc = (BankAccount) it.next();
+			System.out.println(acc);
+		}
+		
+		
+		
+
+	}
+
+}

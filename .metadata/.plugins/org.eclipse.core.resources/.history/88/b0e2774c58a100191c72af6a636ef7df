@@ -1,0 +1,22 @@
+package com.pack.lombokdemo;
+
+import lombok.EqualsAndHashCode;
+import lombok.Getter;
+import lombok.RequiredArgsConstructor;
+import lombok.Setter;
+import lombok.ToString;
+
+
+@Getter
+@Setter
+@ToString
+@RequiredArgsConstructor
+//@EqualsAndHashCode
+public class Emp {
+	
+	final String name;
+	int age;
+	float salary;
+	String designation;
+
+}

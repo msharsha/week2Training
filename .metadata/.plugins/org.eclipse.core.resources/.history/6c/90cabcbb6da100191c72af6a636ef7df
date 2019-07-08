@@ -1,0 +1,31 @@
+package com.pack.mockitodemo;
+
+import static org.junit.Assert.*;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+
+public class TestCalculator {
+	
+	Calculator c1 = null;
+	CalculatorService cs = null;
+
+	@Test
+	public void testOperation() {
+		assertTrue(c1.performCalculation(cs));
+	}
+	
+	@Before
+	public void createObject() {
+		System.out.println("Object Created..");
+		c1 = new Calculator();
+	}
+	
+	@After
+	public void removeObject() {
+		System.out.println("Object removed");
+		c1 = null;
+	}
+
+}

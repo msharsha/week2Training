@@ -1,0 +1,89 @@
+
+public class Dish implements Comparable<Dish>{
+
+	private int dishId;
+	private String name;
+	private double price;
+	private double calories;
+	
+	
+	
+	
+	public int getDishId() {
+		return dishId;
+	}
+
+
+
+	public String getName() {
+		return name;
+	}
+
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+
+	public double getPrice() {
+		return price;
+	}
+
+
+	public void setPrice(double price) {
+		this.price = price;
+	}
+
+
+
+
+	public double getCalories() {
+		return calories;
+	}
+
+
+
+
+	public void setCalories(double calories) {
+		this.calories = calories;
+	}
+
+
+
+
+	@Override
+	public boolean equals(Object obj) {
+		// TODO Auto-generated method stub
+		return super.equals(obj);
+	}
+
+
+
+
+	@Override
+	public int hashCode() {
+		// TODO Auto-generated method stub
+		return super.hashCode();
+	}
+
+
+
+
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return super.toString();
+	}
+
+
+
+
+	@Override
+	public int compareTo(Dish o) {
+		// TODO Auto-generated method stub
+		return Integer.valueOf(this.dishId).compareTo(o.dishId);
+	}
+	
+	
+	
+}

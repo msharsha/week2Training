@@ -1,0 +1,18 @@
+package com.pack.lombokdemo;
+
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
+
+
+@Getter
+@Setter
+@ToString
+public class Emp {
+	
+	final String name;
+	int age;
+	float salary;
+	String designation;
+
+}

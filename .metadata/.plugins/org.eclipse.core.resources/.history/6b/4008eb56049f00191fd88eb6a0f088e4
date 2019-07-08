@@ -1,0 +1,23 @@
+import java.util.ArrayList;
+
+public class User {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		populateData();
+
+	}
+
+	private static void populateData() {
+		// TODO Auto-generated method stub
+		ArrayList<Dish> list = new ArrayList<>();
+		Dish dish1 = new Dish(5,"Neer-Dosa",50.00,100);
+		Dish dish2 = new Dish(2,"Idli-Vada",50.00,100);
+		Dish dish3 = new Dish(4,"Roti-Curry",50.00,100);
+		Dish dish4 = new Dish(1,"Dosa",50.00,100);
+		Dish dish5 = new Dish(3,"Pulav",50.00,100);
+		
+		
+	}
+
+}

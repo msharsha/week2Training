@@ -1,0 +1,30 @@
+package collections;
+
+import java.util.HashSet;
+import java.util.*;
+
+import javax.swing.text.html.HTMLDocument.Iterator;
+
+public class CollectionsDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Set<String> setStr = new HashSet<>();
+		setStr.add("one");
+		setStr.add(null);
+		setStr.add("two");
+		setStr.add("three");
+		setStr.add(null);
+		
+		// Iterating over the elements in the set
+	      Iterator<String> it = setStr.iterator();
+
+	      while (it.hasNext()) {
+	         // Get element
+	         Object element = it.next();
+	         System.out.println(element.toString());
+	      }
+
+	}
+
+}

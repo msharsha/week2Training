@@ -1,0 +1,10 @@
+package com.pack.lombokdemo;
+
+public class Emp {
+	
+	String name;
+	int age;
+	float salary;
+	String designation;
+
+}

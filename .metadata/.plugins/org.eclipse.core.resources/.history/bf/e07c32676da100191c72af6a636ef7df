@@ -1,0 +1,16 @@
+package com.pack.mockitodemo;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class TestCalculator {
+	
+	Calculator c1 = null;
+
+	@Test
+	public void testOperation() {
+		assertTrue(true);
+	}
+
+}

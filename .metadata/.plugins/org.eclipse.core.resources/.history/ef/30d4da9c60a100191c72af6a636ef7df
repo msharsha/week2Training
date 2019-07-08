@@ -1,0 +1,14 @@
+package com.pack.testingdemo;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class TestCalculator {
+
+	@Test
+	public void testAdd() {
+		fail("Not yet implemented");
+	}
+
+}

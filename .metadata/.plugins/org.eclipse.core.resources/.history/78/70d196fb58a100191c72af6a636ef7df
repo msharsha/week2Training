@@ -1,0 +1,18 @@
+package com.pack.lombokdemo;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        System.out.println( "Hello World!" );
+        Emp e1 = new Emp("Ramesh",21,25000,"Programer");
+        Emp e2 = new Emp("Ramesh",21,25000,"Programer");
+        System.out.println(e1);
+        System.out.println(e2);
+        System.out.println(e1.equals(e2));//will compare the refs only
+    }
+}

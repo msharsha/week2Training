@@ -1,0 +1,21 @@
+package collections;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class CollectionsDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Set<String> setStr = new HashSet<>();
+		setStr.add("one");
+		setStr.add(null);
+		setStr.add("two");
+		setStr.add("three");
+		setStr.add(null);
+		
+		
+	
+	}
+
+}

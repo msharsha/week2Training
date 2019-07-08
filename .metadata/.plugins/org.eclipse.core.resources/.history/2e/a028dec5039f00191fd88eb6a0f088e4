@@ -1,0 +1,19 @@
+import java.util.ArrayList;
+
+public class User {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		populateData();
+
+	}
+
+	private static void populateData() {
+		// TODO Auto-generated method stub
+		ArrayList<Dish> list = new ArrayList<>();
+		Dish dish = new Dish(5,"Neer-Dosa",50.00,100);
+		
+		
+	}
+
+}

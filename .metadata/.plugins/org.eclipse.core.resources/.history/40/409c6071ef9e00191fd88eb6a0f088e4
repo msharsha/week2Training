@@ -1,0 +1,14 @@
+package com.sapient.pe.tutorial;
+
+enum {
+	NAME_ASC,
+	NAME_DESC,
+	ID_ASC
+}
+public class Comparators {
+	
+	public static void getComparators() {
+		switch()
+	}
+
+}

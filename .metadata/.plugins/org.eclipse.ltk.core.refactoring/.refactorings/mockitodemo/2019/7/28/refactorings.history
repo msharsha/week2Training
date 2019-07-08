@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.pack.mockitodemo.CalculatotService&apos; to &apos;CalculatorService&apos;&#x0D;&#x0A;- Original project: &apos;mockitodemo&apos;&#x0D;&#x0A;- Original element: &apos;com.pack.mockitodemo.CalculatotService&apos;&#x0D;&#x0A;- Renamed element: &apos;com.pack.mockitodemo.CalculatorService&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;CalculatotService&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java&lt;com.pack.mockitodemo{CalculatotService.java[CalculatotService" matchStrategy="1" name="CalculatorService" qualified="false" references="true" similarDeclarations="false" stamp="1562582438254" textual="false" version="1.0"/>
+</session>
