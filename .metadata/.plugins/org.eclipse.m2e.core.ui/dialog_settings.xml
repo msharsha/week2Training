@@ -26,12 +26,16 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.pack.mockitodemo"/>
+			<item value="com.pack.testingdemo"/>
 			<item value="com.pack.lombokdemo"/>
 		</list>
 		<list key="groupId">
 			<item value="com.pack"/>
 		</list>
 		<list key="artifactId">
+			<item value="mockitodemo"/>
+			<item value="testingdemo"/>
 			<item value="lombokdemo"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -68,5 +72,20 @@
 	<section name="org.eclipse.m2e.core.pom.overview">
 	</section>
 	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="wizardPage">
+		<list key="groupId">
+			<item value="com.java"/>
+			<item value="huu"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="jdbcconnectivity"/>
+			<item value="huu"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
 	</section>
 </section>

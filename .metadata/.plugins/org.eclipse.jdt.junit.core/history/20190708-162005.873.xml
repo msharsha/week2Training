@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="TestCalculator (1)" project="mockitodemo" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testsuite name="com.pack.mockitodemo.TestCalculator" time="0.0">
-    <testcase name="testOperation" classname="com.pack.mockitodemo.TestCalculator" time="0.0"/>
-  </testsuite>
-</testrun>
