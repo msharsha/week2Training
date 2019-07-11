@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+      	<bean id="man" class="com.pack.springdemo.Man">
+      		<!-- Setter Injection -->
+      		<property name="name" value="Rajesh"></property>
+      		<property name="age" value="22"></property>
+      	</bean>
+      	<bean id="woman" class="com.pack.springdemo.Woman">
+      		<!-- Setter Injection -->
+      		<property name="name" value="Sunita"></property>
+      		<property name="age" value="22"></property>
+      	</bean>
+</beans>

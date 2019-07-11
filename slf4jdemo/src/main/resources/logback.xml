@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration debug="true">
+	<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender"><!-- for different types u have different appenders -->
+			<encoder>
+				<pattern>%d{HH:mm:ss.SSS} [%thread]%-5level %logger{36} -%msg</pattern>
+			</encoder>
+	</appender>
+	<logger name="slf4jdemo" level="error"></logger> <!-- Logger is preferred to root unless only root is there-->
+	<root level="INFO"> <!-- ONLY INFO STATEMENTS WILL BE PRINTED . DEBUG-INFO-ERROR -->
+		<appender-ref ref="STDOUT" />
+	</root>
+</configuration>
