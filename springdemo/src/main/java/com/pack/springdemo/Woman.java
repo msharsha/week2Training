@@ -3,6 +3,14 @@ package com.pack.springdemo;
 public class Woman implements Human{
 	private String name;
 	private int age;
+	private Address address;
+	
+	public Address getAddress() {
+		return address;
+	}
+	public void setAddress(Address address) {
+		this.address = address;
+	}
 	public String getName() {
 		return name;
 	}
@@ -17,7 +25,7 @@ public class Woman implements Human{
 	}
 	@Override
 	public String toString() {
-		return "Woman [name=" + name + ", age=" + age + "]";
+		return "Woman [name=" + name + ", age=" + age + ", address=" + address + "]";
 	}
 	
 }

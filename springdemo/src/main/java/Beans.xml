@@ -4,13 +4,25 @@
     xsi:schemaLocation="
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
       	<bean id="man" class="com.pack.springdemo.Man">
-      		<!-- Setter Injection -->
-      		<property name="name" value="Rajesh"></property>
-      		<property name="age" value="22"></property>
+      		<!-- Constructor Injection -->
+      		<constructor-arg name="name" value="Ravi"></constructor-arg><!-- if u know the order then it is possible to ignore name attribute. -->
+      		<constructor-arg name="age" value="33"></constructor-arg>
+      		<constructor-arg name="address" ref="m_addr"></constructor-arg><!-- one object ref. to another object -->
       	</bean>
       	<bean id="woman" class="com.pack.springdemo.Woman">
       		<!-- Setter Injection -->
       		<property name="name" value="Sunita"></property>
       		<property name="age" value="22"></property>
+      		<property name="address" ref="w_addr"></property>
+      	</bean>
+      	<bean id="m_addr" class="com.pack.springdemo.Address">
+      		<property name="state" value="Karnataka"></property>
+      		<property name="city" value="Bangalore"></property>
+      		<property name="pin" value="560037"></property>	
+      	</bean>
+      	<bean id="w_addr" class="com.pack.springdemo.Address">
+      		<property name="state" value="Maharashtra"></property>
+      		<property name="city" value="Pune"></property>
+      		<property name="pin" value="440010"></property>	
       	</bean>
 </beans>

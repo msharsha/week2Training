@@ -18,11 +18,10 @@ import lombok.Value;
 //@EqualsAndHashCode
 @AllArgsConstructor
 //@NoArgsConstructor
-@Value
+//@Value
 @Data
-public class Emp {
-	
-	final String name;
+public class Emp{
+	String name;
 	int age;
 	float salary;
 	String designation;
